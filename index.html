@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .range {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  </style>
+    <body>
+      <div class="tableQuery">
+        <h1>Streaming Service TV Show and Movie Database Project</h1>
+        <p>CSS 475 By Team Spongebob: Jasper Yeung, Kenny Leung, Duong Ha, Caitlin Tran</p>
+        <h2>Find Movies</h2>
+        <form>
+        <button id="queryButton1">Query!</button> <br>
+      <div class="attributeForm">
+        <h3>Attributes to Show</h3>
+        <!--Movie Attributes-->
+        <input type="checkbox" id="MV_ID1">
+        <label for="MV_ID1">Movie ID</label><br>
+
+        <input type="checkbox" id="MVName1">
+        <label for="MVName1">Movie Name</label><br>
+
+        <input type="checkbox" id="MVReleaseYear1">
+        <label for="MVReleaseYear1">Movie Release Year</label><br>
+
+        <input type="checkbox" id="MVSummary1">
+        <label for="MVSummary1">Movie Summary</label><br>
+
+        <input type="checkbox" id="MVAgeRating1">
+        <label for="MVAgeRating1">Movie Age Rating</label><br>
+
+        <input type="checkbox" id="MVRuntime1">
+        <label for="MVRuntime1">Movie Runtime</label><br>
+        
+        <!--Movie Genres Attributes-->
+        <input type="checkbox" id="MVGenre1">
+        <label for="MVGenre1">Movie Genre</label><br>
+
+        <!--Studios and MovieProducedBy Attributes-->
+        <input type="checkbox" id="STName1">
+        <label for="STName1">Studio Name</label><br>
+
+        <input type="checkbox" id="Country1">
+        <label for="Country1">Studio Country of Origin</label><br>
+
+        <!--Streaming Service and StreamingServiceMovies Attributes-->
+        <input type="checkbox" id="SSName1">
+        <label for="SSName1">Streaming Service Name</label><br>
+
+        <input type="checkbox" id="HasAds1">
+        <label for="HasAds1">Streaming Service Ad Status</label><br>
+
+        <input type="checkbox" id="MVViewCount1">
+        <label for="MVViewCount1">Streaming Service View Count</label><br>
+
+        <input type="checkbox" id="MVReviewScore1">
+        <label for="MVReviewScore1">Streaming Service Review Score</label><br>
+
+        <input type="checkbox" id="MVAvailability1">
+        <label for="MVAvailability1">Streaming Service Availability</label><br>
+      </div>
+      <div class="conditionForm">
+        <h3>Query Conditions</h3>
+
+        <!--Movie Attribute Conditions-->
+        <input type="checkbox" id="MVIDBox1">
+        <label for="MVIDBox1">Movie ID :</label>
+        <input type="number" id="MVIDNum1" min="0"> <br>
+        
+        <input type="checkbox" id="MVNameBox1">
+        <label for="MVNameBox1">Movie Name :</label>
+        <input type="text" id="MVNameText1"> <br>
+
+        <div class="range">
+          <input type="checkbox" id="MVReleaseYearBox1">
+          <label for="MVReleaseYearBox1">Movie Release Year :</label>
+          <input type="number" id="MVReleaseYearMin1" min="1888">
+          <p>-</p> 
+          <input type="number" id="MVReleaseYearMax1" min="1888">
+        </div>
+
+        <div class="range">
+        <input type="checkbox" id="MVAgeRatingBox1">
+        <label for="MVAgeRatingBox1">Age Rating :</label>
+        <select id="MVAgeRatingMin1">
+          <option value="0">G</option>
+          <option value="1">PG</option>
+          <option value="2">PG-13</option>
+          <option value="3">R</option>
+          <option value="4">NC-17</option>
+        </select>
+        <p>-</p>
+        <select id="MVAgeRatingMax1">
+          <option value="4">NC-17</option>
+          <option value="3">R</option>
+          <option value="2">PG-13</option>
+          <option value="1">PG</option>
+          <option value="0">G</option>
+        </select>  
+        </div>
+        <!--Add options.remove and options.add for MVRuntimeMax1-->
+        <div class="range">
+          <input type="checkbox" id="MVRuntimeBox1">
+          <label for="MVRuntimeBox1">Movie Runtime :</label>
+          <input type="number" id="MVRuntimeMin1" min="0">
+          <p>-</p> 
+          <input type="number" id="MVRuntimeMax1" min="0">
+        </div>
+        <!--Genre Condition-->
+        <input type="checkbox" id="MVGenreBox1">
+        <label for="MVGenreBox1">Movie Genre :</label>
+        <input type="text" id="MVGenreText1"> <br>
+
+        <!--Studios and MovieProducedBy Conditions-->
+        <input type="checkbox" id="STNameBox1">
+        <label for="STNameBox1">Movie's Studio :</label>
+        <input type="text" id="STNameText1"> <br>
+
+        <input type="checkbox" id="CountryBox1">
+        <label for="CountryBox1">Studio Country of Origin (3 Letter Code) :</label>
+        <input type="text" id="CountryText1"> <br>
+
+        <!--StreamingService and StreamingServiceMovies Conditions-->
+        <input type="checkbox" id="SSNameBox1">
+        <label for="SSNameBox1">Streaming Service Name :</label>
+        <input type="text" id="SSNameText1"> <br>
+
+        <input type="checkbox" id="HasAdsBox1">
+        <label for="HasAdsBox1">Streaming Service Has No Ads</label>
+
+        <div class="range">
+        <input type="checkbox" id="MVViewCountBox1">
+        <label for="MVViewCountBox1">Movie View Count :</label>
+        <!--Set an Option for only Max-->
+        <input type="number" id="MVViewCountMin1" min="0"> 
+        <p>-</p>
+        <input type="number" id="MVViewCountMax1" min="0"> 
+        </div>
+
+        <div class="range">
+          <input type="checkbox" id="MVReviewScoreBox1">
+          <label for="MVReviewScoreBox1">Movie Review Score :</label>
+          <!--Set an Option for only Max-->
+          <input type="number" id="MVReviewScoreMin1" min="0" step="0.1" max="10"> 
+          <p>-</p>
+          <input type="number" id="MVReviewScoreMax1" min="0" step="0.1" max="10"> 
+        </div>
+
+        <input type="checkbox" id="MVAvailableBox1">
+        <label for="MVAvailableBox1">Movie Available on Streaming Service</label>
+        </div>
+      </form>
+      
+      <h3>Results</h3>
+      <table id="basicQuery1"></table>
+      <p id="noResult1"></p>
+    </div>
+    </body>
+    <script src="/queryLogic.js"></script>
+</html>

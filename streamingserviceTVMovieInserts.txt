@@ -1,0 +1,1045 @@
+INSERT INTO STREAMINGSERVICES VALUE (100, 'Netflix', True);
+INSERT INTO STREAMINGSERVICES VALUE (101, 'Hulu', True);
+INSERT INTO STREAMINGSERVICES VALUE (102, 'Disney+', True);
+INSERT INTO STREAMINGSERVICES VALUE (103, 'Amazon Prime', True);
+INSERT INTO STREAMINGSERVICES VALUE (104, 'Paramount+', True);
+INSERT INTO STREAMINGSERVICES VALUE (105, 'HBO Max', True);
+INSERT INTO STREAMINGSERVICES VALUE (106, 'Peacock', True);
+INSERT INTO STREAMINGSERVICES VALUE (107, 'Apple TV+', True);
+INSERT INTO STREAMINGSERVICES VALUE (108, 'Crunchyroll', False);
+INSERT INTO STREAMINGSERVICES VALUE (109, 'Funimation', False);
+INSERT INTO STREAMINGSERVICES VALUE (110, 'YouTube Premium', True);
+INSERT INTO STREAMINGSERVICES VALUE (111, 'Vudu', True);
+INSERT INTO STREAMINGSERVICES VALUE (112, 'Tubi', True);
+INSERT INTO STREAMINGSERVICES VALUE (113, 'Roku Channel', True);
+INSERT INTO STREAMINGSERVICES VALUE (114, 'Pluto TV', True);
+INSERT INTO tvshows Values (201, 'The Last Airbender', 2005, 'An Avatar named Aang travels around the world to master elemental powers and stop the Fire Nation', 'TV-14', 'Finished');
+INSERT INTO TVSHOWS VALUES (202, 'The Boys', 2019, 'A group of vigilantes hunts down corrupted superheroes who abuse their powers', 'TV-MA', 'Ongoing');
+INSERT INTO TVSHOWS VALUES (203, 'Bluey', 2018, 'Bluey, Bingo and their family of dogs go on imaginative adventures', 'TV-Y', 'Ongoing');
+INSERT INTO TVSHOWS VALUES (204, 'Demon Slayer: Kimetsu no Yaiba', 2019, 'A boy becomes a demon slayer to kill demons after one killed his family and his sister turned into a demon', 'TV-MA', 'Ongoing');
+INSERT INTO TVSHOWS VALUES (205, 'Hazbin Hotel', 2024, 'A princess of Hell tries to rehabilitate some demons with her hotel so that they go to Heaven', 'TV-MA', 'Ongoing');
+INSERT INTO TVSHOWS VALUES (206, 'Stranger Things', 2016, 'A group of kids uncovers strange happenings in their small town', 'TV-14', 'Ongoing');
+INSERT INTO TVSHOWS VALUES (207, 'Breaking Bad', 2008, 'A chemistry teacher turns to cook meth to secure his family\'s future', 'TV-MA', 'Finished');
+INSERT INTO TVSHOWS VALUES (208, 'Game of Thrones', 2011, 'Noble families vie for control of the Iron Throne', 'TV-MA', 'Finished');
+INSERT INTO TVSHOWS VALUES (209, 'Arcane', 2021, 'Two sisters clash in a world of magic and technology', 'TV-14', 'Ongoing');
+INSERT INTO TVSHOWS VALUES (210, 'The Office', 2005, 'A mockumentary about the daily lives of office employees', 'TV-PG', 'Finished');
+INSERT INTO TVSHOWS VALUES (211, 'Parks and Recreation', 2009, 'A mockumentary about a quirky parks department', 'TV-PG', 'Finished');
+INSERT INTO TVSHOWS VALUES (212, 'Attack on Titan', 2013, 'Humans fight to survive against giant creatures called Titans', 'TV-MA', 'Ongoing');
+INSERT INTO TVSHOWS VALUES (213, 'Better Call Saul', 2015, 'The origin story of the lawyer Saul Goodman', 'TV-MA', 'Finished');
+INSERT INTO tvshows VALUES (214, 'The Mandalorian', 2019, 'A bounty hunter travels the galaxy to protect a mysterious child', 'TV-14', 'Ongoing');
+INSERT INTO tvshows VALUES (215, 'Squid Game', 2021, 'Contestants play deadly games for a cash prize', 'TV-MA', 'Finished');
+
+INSERT INTO tvshows VALUES (216, 'Star Wars: The Acolyte', 2024, 'A Jedi Warrior investigates a series of crimes that reveal sinister forces underneath', 'TV-14', 'Cancelled');
+INSERT INTO MOVIES VALUES (301, 'Frozen', 2013, 'A woman named Anna sets out to find her sister to save her kingdom from an everlasting winter', 'PG', 102);
+INSERT INTO MOVIES VALUES (302, 'Avengers: Endgame', 2019, 'The remaining Avengers gather to stop Thanos and reverse his actions', 'PG-13', 181);
+INSERT INTO MOVIES VALUES (303, 'Spirited Away', 2001, 'A young girl finds herself trapped in the world of spirits and tries to return home', 'PG', 125);
+INSERT INTO MOVIES VALUES (304, 'Sing', 2016, 'In a world of anthropomorphic animals, a koala tries to save a theatre by having a singing contest', 'PG', 108);
+INSERT INTO MOVIES VALUES (305, 'The Matrix', 1999, 'A man discovers that his world is a simulation', 'R', 136);
+INSERT INTO MOVIES VALUES (306, 'Inception', 2010, 'A thief who enters dreams tries to plant an idea in a person\'s mind', 'PG-13', 148);
+INSERT INTO MOVIES VALUES (307, 'The Lion King', 1994, 'A lion cub learns about the circle of life', 'G', 88);
+INSERT INTO MOVIES VALUES (308, 'Coco', 2017, 'A boy journeys to the Land of the Dead to discover his family history', 'PG', 105);
+INSERT INTO MOVIES VALUES (309, 'Black Panther', 2018, 'A king defends his technologically advanced nation', 'PG-13', 134);
+INSERT INTO MOVIES VALUES (310, 'The Dark Knight', 2008, 'Batman faces off against the Joker', 'PG-13', 152);
+INSERT INTO MOVIES VALUES (311, 'Toy Story', 1995, 'Toys come to life when humans aren\'t around', 'G', 81);
+INSERT INTO MOVIES VALUES (312, 'Up', 2009, 'An elderly man flies his house to South America', 'PG', 96);
+INSERT INTO MOVIES VALUES (313, 'Joker', 2019, 'The origin story of the iconic DC villain', 'R', 122);
+INSERT INTO MOVIES VALUES (314, 'Interstellar', 2014, 'A team of astronauts searches for a new home for humanity', 'PG-13', 169);
+INSERT INTO MOVIES VALUES (315, 'Shrek', 2001, 'An ogre sets out to rescue a princess', 'PG', 90);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (100, 201, 5000000, 9.5, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (101, 202, 1200000, 8.9, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (102, 203, 300000, 9.8, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (103, 204, 2500000, 9.2, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (104, 205, 100000, 8.5, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (100, 206, 10000000, 9.0, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (101, 207, 6000000, 9.5, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (102, 208, 8500000, 9.3, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (103, 209, 2000000, 9.7, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (104, 210, 7000000, 8.8, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (100, 211, 3000000, 8.7, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (101, 212, 5000000, 9.1, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (102, 213, 5500000, 9.2, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (103, 214, 8000000, 9.4, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (104, 215, 10000000, 9.6, True);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (109, 204, 2500000, 9.2, False);
+INSERT INTO STREAMINGSERVICETVSHOWS VALUES (107, 203, 300000, 9.8, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (100, 301, 10000000, 8.2, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (101, 302, 15000000, 9.0, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (102, 303, 5000000, 9.3, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (103, 304, 7000000, 7.8, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (104, 305, 12000000, 8.7, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (100, 306, 11000000, 9.1, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (101, 307, 1500000, 8.9, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (102, 308, 6000000, 9.0, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (103, 309, 17000000, 9.4, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (104, 310, 20000000, 9.8, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (100, 311, 8000000, 8.3, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (101, 312, 9000000, 8.7, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (102, 313, 12000000, 8.6, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (103, 314, 14000000, 9.2, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (104, 315, 7000000, 8.5, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (100, 304, 7000000, 7.1, True);
+INSERT INTO STREAMINGSERVICEMOVIES VALUES (104, 306, 11000000, 7.8, False);
+INSERT INTO SEASONS VALUES(201, 1, 'Book One: Water', 2005);
+INSERT INTO SEASONS VALUES(201, 2, 'Book Two: Earth', 2006);
+INSERT INTO SEASONS VALUES(201, 3, 'Book Three: Fire', 2007);
+INSERT INTO SEASONS VALUES(202, 1, 'Season 1', 2019);
+INSERT INTO SEASONS VALUES(202, 2, 'Season 2', 2020);
+INSERT INTO SEASONS VALUES(203, 1, 'Season 1', 2018);
+INSERT INTO SEASONS VALUES(203, 2, 'Season 2', 2019);
+INSERT INTO SEASONS VALUES(204, 1, 'Season 1', 2019);
+INSERT INTO SEASONS VALUES(204, 2, 'Season 2', 2020);
+INSERT INTO SEASONS VALUES(205, 1, 'Season 1', 2024);
+INSERT INTO SEASONS VALUES(206, 1, 'Season 1', 2016);
+INSERT INTO SEASONS VALUES(207, 1, 'Season 1', 2008);
+INSERT INTO SEASONS VALUES(208, 1, 'Season 1', 2011);
+INSERT INTO SEASONS VALUES(209, 1, 'Season 1', 2021);
+INSERT INTO SEASONS VALUES(210, 1, 'Season 1', 2005);
+INSERT INTO EPISODES VALUES (201, 1, 1, 'The Boy in the Iceberg', 2005, 'Katara and Sokka discover Aang in an iceberg', 24);
+INSERT INTO EPISODES VALUES (201, 1, 2, 'The Avatar Returns', 2005, 'Aang must prove himself to the villagers', 24);
+INSERT INTO EPISODES VALUES (202, 1, 1, 'The Name of the Game', 2019, 'Hughie meets Billy Butcher and learns the truth about superheroes', 55);
+INSERT INTO EPISODES VALUES (203, 1, 1, 'Magic Xylophone', 2018, 'Bluey and Bingo have fun playing with a magical xylophone', 7);
+INSERT INTO EPISODES VALUES (204, 1, 1, 'Cruelty', 2019, 'Tanjiro begins his journey to become a demon slayer', 23);
+INSERT INTO EPISODES VALUES (205, 1, 1, 'Pilot', 2024, 'Charlie opens her hotel to help rehabilitate demons', 30);
+INSERT INTO EPISODES VALUES (206, 1, 1, 'The Vanishing of Will Byers', 2016, 'A young boy goes missing, and a strange girl appears', 47);
+INSERT INTO EPISODES VALUES (207, 1, 1, 'Pilot', 2008, 'Walter White turns to make meth after a cancer diagnosis', 58);
+INSERT INTO EPISODES VALUES (208, 1, 1, 'Winter Is Coming', 2011, 'The Starks of Winterfell receive the king and his court', 62);
+INSERT INTO EPISODES VALUES (209, 1, 1, 'Welcome to the Playground', 2021, 'Two sisters steal a powerful crystal in a heist', 41);
+INSERT INTO EPISODES VALUES (210, 1, 1, 'Pilot', 2005, 'The staff of Dunder Mifflin is introduced', 22);
+INSERT INTO STUDIOS VALUES (1, 'Nickelodeon Animation Studio', 'USA');
+INSERT INTO STUDIOS VALUES (2, 'Amazon Studios', 'USA');
+INSERT INTO STUDIOS VALUES (3, 'BBC Studios', 'UK');
+INSERT INTO STUDIOS VALUES (4, 'Ufotable', 'JPN');
+INSERT INTO STUDIOS VALUES (5, 'A24', 'USA');
+INSERT INTO STUDIOS VALUES (6, 'Pixar Animation Studios', 'USA');
+INSERT INTO STUDIOS VALUES (7, 'Walt Disney Animation Studios', 'USA');
+INSERT INTO STUDIOS VALUES (8, 'Marvel Studios', 'USA');
+INSERT INTO STUDIOS VALUES (9, 'Warner Bros. Pictures', 'USA');
+INSERT INTO STUDIOS VALUES (10, 'DreamWorks Animation', 'USA');
+INSERT INTO STUDIOS VALUES (11, 'Studio Ghibli', 'JPN');
+INSERT INTO STUDIOS VALUES (12, 'Universal Pictures', 'USA');
+INSERT INTO STUDIOS VALUES (13, 'Sony Pictures Animation', 'USA');
+INSERT INTO STUDIOS VALUES (14, '20th Century Studios', 'USA');
+INSERT INTO STUDIOS VALUES (15, 'HBO Productions', 'USA');
+INSERT INTO TVSHOWPRODUCEDBY VALUES (201, 1);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (202, 2);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (203, 3);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (204, 4);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (205, 5);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (206, 6);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (207, 7);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (208, 8);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (209, 9);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (210, 10);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (211, 11);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (212, 4);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (213, 12);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (214, 13);
+INSERT INTO TVSHOWPRODUCEDBY VALUES (215, 14);
+INSERT INTO MOVIEPRODUCEDBY VALUES (301, 7);
+INSERT INTO MOVIEPRODUCEDBY VALUES (302, 8);
+INSERT INTO MOVIEPRODUCEDBY VALUES (303, 11);
+INSERT INTO MOVIEPRODUCEDBY VALUES (304, 10);
+INSERT INTO MOVIEPRODUCEDBY VALUES (305, 9);
+INSERT INTO MOVIEPRODUCEDBY VALUES (306, 8);
+INSERT INTO MOVIEPRODUCEDBY VALUES (307, 7);
+INSERT INTO MOVIEPRODUCEDBY VALUES (308, 7);
+INSERT INTO MOVIEPRODUCEDBY VALUES (309, 8);
+INSERT INTO MOVIEPRODUCEDBY VALUES (310, 9);
+INSERT INTO MOVIEPRODUCEDBY VALUES (311, 6);
+INSERT INTO MOVIEPRODUCEDBY VALUES (312, 9);
+INSERT INTO MOVIEPRODUCEDBY VALUES (313, 14);
+INSERT INTO MOVIEPRODUCEDBY VALUES (314, 13);
+INSERT INTO MOVIEPRODUCEDBY VALUES (315, 10);
+INSERT INTO MOVIEPRODUCEDBY VALUES (311, 7);
+INSERT INTO TVSHOWGENRES VALUES (201, 'Action');
+INSERT INTO TVSHOWGENRES VALUES (201, 'Adventure');
+INSERT INTO TVSHOWGENRES VALUES (202, 'Drama');
+INSERT INTO TVSHOWGENRES VALUES (202, 'Action');
+INSERT INTO TVSHOWGENRES VALUES (203, 'Family');
+INSERT INTO TVSHOWGENRES VALUES (204, 'Fantasy');
+INSERT INTO TVSHOWGENRES VALUES (204, 'Action');
+INSERT INTO TVSHOWGENRES VALUES (205, 'Dark Comedy');
+INSERT INTO TVSHOWGENRES VALUES (206, 'Mystery');
+INSERT INTO TVSHOWGENRES VALUES (206, 'Horror');
+INSERT INTO TVSHOWGENRES VALUES (207, 'Crime');
+INSERT INTO TVSHOWGENRES VALUES (207, 'Thriller');
+INSERT INTO TVSHOWGENRES VALUES (208, 'Fantasy');
+INSERT INTO TVSHOWGENRES VALUES (208, 'Drama');
+INSERT INTO TVSHOWGENRES VALUES (209, 'Animation');
+ INSERT INTO TVSHOWGENRES VALUES (210, 'Comedy');
+INSERT INTO TVSHOWGENRES VALUES (211, 'Comedy');
+ INSERT INTO TVSHOWGENRES VALUES (212, 'Fantasy');
+INSERT INTO TVSHOWGENRES VALUES (212, 'Action');
+INSERT INTO TVSHOWGENRES VALUES (213, 'Crime');
+INSERT INTO TVSHOWGENRES VALUES (214, 'Sci-Fi');
+INSERT INTO TVSHOWGENRES VALUES (215, 'Thriller');
+INSERT INTO MOVIEGENRES VALUES(301, 'Animation');
+INSERT INTO MOVIEGENRES VALUES(301, 'Family');
+INSERT INTO MOVIEGENRES VALUES(302, 'Action');
+INSERT INTO MOVIEGENRES VALUES(302, 'Adventure');
+INSERT INTO MOVIEGENRES VALUES(303, 'Fantasy');
+INSERT INTO MOVIEGENRES VALUES(303, 'Drama');
+INSERT INTO MOVIEGENRES VALUES(304, 'Comedy');
+INSERT INTO MOVIEGENRES VALUES(305, 'Sci-Fi');
+INSERT INTO MOVIEGENRES VALUES(305, 'Action');
+INSERT INTO MOVIEGENRES VALUES(306, 'Mystery');
+INSERT INTO MOVIEGENRES VALUES(306, 'Adventure');
+INSERT INTO MOVIEGENRES VALUES(307, 'Family');
+INSERT INTO MOVIEGENRES VALUES(308, 'Musical');
+INSERT INTO MOVIEGENRES VALUES(309, 'Action');
+INSERT INTO MOVIEGENRES VALUES(309, 'Adventure');
+INSERT INTO MOVIEGENRES VALUES(310, 'Crime');
+INSERT INTO MOVIEGENRES VALUES(311, 'Comedy');
+INSERT INTO MOVIEGENRES VALUES(312, 'Drama');
+INSERT INTO MOVIEGENRES VALUES(313, 'Thriller');
+INSERT INTO MOVIEGENRES VALUES(314, 'Sci-Fi');
+INSERT INTO MOVIEGENRES VALUES(315, 'Fantasy');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(201, 100, 'English');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(201, 100, 'Spanish');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(202, 101, 'English');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(202, 101, 'German');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(203, 102, 'English');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(203, 102, 'French');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(204, 103, 'Japanese');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(204, 103, 'English');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(205, 104, 'English');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(206, 100, 'English');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(207, 101, 'English');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(208, 102, 'German');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(209, 103, 'English');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(210, 104, 'English');
+INSERT INTO TVSHOWAUDIOLANGUAGEOPTIONS VALUES(211, 105, 'English');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(301, 100, 'English');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(301, 100, 'Japanese');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(302, 101, 'English');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(303, 102, 'English');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(303, 102, 'Japanese');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(304, 103, 'English');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(305, 104, 'English');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(306, 100, 'English');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(306, 100, 'French');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(307, 101, 'English');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(308, 102, 'English');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(309, 103, 'English');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(310, 104, 'German');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(311, 105, 'Spanish');
+INSERT INTO MOVIEAUDIOLANGUAGEOPTIONS VALUES(312, 100, 'English');
+
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '1', 'The Fresh Prince of Bel-Air','1990', 'A fictionalized version of Will Smith moves to the wealthy suburbs of Bel-Air from Philadelphia', 'TV-Y7 FV', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '2', 'King of the Hill','1997', 'A man in Texas has adventures dealing with mishaps in his daily life', 'TV-14', 'Cancelled');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '3', 'The Simpsons','1985', 'A satire of middle-class American life through the lens of a family in Springfield, Illinois', 'TV-MA', 'Cancelled');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '4', 'Rick and Morty','1967', 'A mad scientist and his grandson go on interdimensional adventures', 'TV-MA', 'Cancelled');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '5', 'Family Guy','2004', 'A dysfunctional family deals with life in a town in Rhode Island', 'TV-Y7 FV', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '6', 'Jujutsu Kaisen','2020', 'A boy becomes cursed by swallowing a powerful artifact and learns sorcery to deal with it', 'TV-Y', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '7', 'Hunter x Hunter','2021', 'A boy becomes a Hunter in order to find his father', 'TV-Y', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '8', 'Seinfeld','1978', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 'TV-Y', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '9', 'Gravity Falls','2011', 'Two siblings have summer adventures at their great-uncle\'s.', 'TV-G', 'Cancelled');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '10', 'Steven Universe','1987', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 'TV-PG', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '11', 'Fargo','1954', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 'TV-14', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '12', 'The Good Doctor','1979', 'A young, autistic surgeon is hired by a surgical team at a well-known hospital', 'TV-Y7 FV', 'Cancelled');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '13', 'Extraordinary Attorney Woo','2022', 'An autistic rookie attorney is hired as a law firm in Seoul', 'TV-MA', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '14', 'It\'s Always Sunny in Philidelphia','1972', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 'TV-G', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '15', 'Monty Python\'s Flying Circus','1989', 'A surreal sketch comedy show by six British comedians', 'TV-Y7', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '16', 'American Dad','1962', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'TV-Y7 FV', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '17', 'The Flintstones','2018', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'TV-Y', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '18', 'Scooby-Doo, Where Are You!','2017', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 'TV-PG', 'Cancelled');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '19', 'Crash Landing on You','1977', 'A wealthy heiress finds herself in love with a North Korean soldier after promising to keep her safe', 'TV-Y7 FV', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '20', 'Pretty Guardian Sailor Moon','1987', 'A girl learns she\'s a powerful warrior of justice and deals with enemies trying to take her powers', 'TV-Y7', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '22', 'Beavis and Butthead','2003', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.', 'TV-PG', 'Cancelled');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '23', 'Saturday Night Live','1981', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 'TV-Y7 FV', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '24', 'Curb Your Enthusiasm','1981', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 'TV-Y7', 'Cancelled');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '25', 'X-Men \'97','2004', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 'TV-Y', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '26', 'PAW Patrol','2018', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 'TV-14', 'Cancelled');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '27', 'South Park','1997', 'A satire of current events through the misadventures of four grade-schoolers.', 'TV-14', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '28', 'Futurama','1990', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 'TV-MA', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '29', 'Adventure Time','2015', 'In the Land of Ooo, a young human named Finn goes on adventures with his dog Jake', 'TV-14', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '30', 'Dora the Explorer','1993', 'Dora goes on adventures with her friend Boots the monkey', 'TV-Y7 FV', 'Cancelled');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '31', 'Sesame Street','1969', 'Humans and Muppets have adventures teaching children preschool concepts and being kind', 'TV-Y', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '32', 'One Piece','1998', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'TV-14', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '33', 'Bleach','1961', 'Fusce consequat. Nulla nisl. Nunc nisl.', 'TV-G', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '34', 'Buffy the Vampire Slayer','1971', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'TV-Y7 FV', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '35', 'One Punch Man','1973', 'A man who is a hero for fun is also capable of defeating villains with a single punch', 'TV-Y7', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '36', 'Doctor Who','2015', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 'TV-Y7', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '37', 'Once Upon a Time','1988', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 'TV-14', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '38', 'Downton Abbey','2019', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 'TV-14', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '39', 'Bridgerton','1953', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 'TV-PG', 'Cancelled');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '40', 'Naruto: Shippuden','2013', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 'TV-MA', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '41', 'El Chavo del Ocho','1989', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 'TV-PG', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '42', 'Looney Tunes','1964', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 'TV-Y', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '43', 'Impractical Jokers','1985', 'Four lifelong friends pull pranks in order to embarrass each other', 'TV-Y7 FV', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '44', 'Samurai Jack','1973', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 'TV-MA', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '45', 'Regular Show','2001', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 'TV-Y7 FV', 'Cancelled');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '46', 'Teen Titans','2018', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 'TV-Y7', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '47', 'Neon Genesis Evangelion','1970', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 'TV-Y7', 'Finished');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '48', 'Vagabond','1988', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 'TV-PG', 'Cancelled');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '49', 'House of Cards','1967', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 'TV-14', 'Ongoing');
+insert into TVSHOWS (TVS_ID,TVSName,TVSReleaseYear,TVSSummary,TVSAgeRating,TVSUpdateStatus) values ( '50', 'Sword Art Online','2007', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 'TV-Y7', 'Cancelled');
+
+
+	
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (1, 'The Secret Life of Pets', 2017, 'A group of pets embark on an adventure while their owners are away.', 'NC-17', 100);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (2, 'Finding Nemo', 1998, 'A clownfish journeys to find his missing son.', 'PG-13', 83);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (3, 'Iron Man', 2014, 'A billionaire creates a powerful suit to fight crime.', 'NC-17', 82);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (4, 'Star Wars: The Force Awakens', 2004, 'A young woman discovers her connection to a mysterious force.', 'R', 126);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (5, 'The Hobbit', 1996, 'A group of dwarves and a hobbit go on a quest to reclaim their homeland.', 'PG-13', 84);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (6, 'Harry Potter and the Sorcerer''s Stone', 2013, 'A young boy discovers he is a wizard and attends a magical school.', 'G', 102);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (7, 'Inside Out', 2021, 'A young girl learns about emotions as she navigates life''s challenges.', 'PG', 87);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (8, 'The Incredibles', 2012, 'A superhero family struggles to balance their normal lives with saving the world.', 'PG-13', 109);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (9, 'Wonder Woman', 2024, 'An Amazonian princess leaves her island to save humanity.', 'G', 140);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (10, 'The Hunger Games', 2010, 'A young woman becomes a symbol of resistance in a dystopian society.', 'PG', 94);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (11, 'Frozen II', 2010, 'Anna and Elsa return to uncover the secrets of their kingdom.', 'G', 157);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (12, 'Zootopia', 2003, 'A rabbit and a fox team up to solve a mystery in a city of animals.', 'R', 161);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (13, 'Doctor Strange', 1995, 'A surgeon gains magical powers after a life-altering accident.', 'PG', 154);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (14, 'Guardians of the Galaxy', 1994, 'A team of misfits band together to save the galaxy.', 'PG-13', 128);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (15, 'Moana', 2016, 'A young girl embarks on a journey across the ocean to save her people.', 'PG-13', 146);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (16, 'Aladdin', 1993, 'A street rat uses a magical lamp to win the heart of a princess.', 'NC-17', 171);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (17, 'Beauty and the Beast', 1994, 'A young woman learns that true beauty comes from within.', 'G', 143);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (18, 'Thor: Ragnarok', 2017, 'Thor teams up with old friends to stop a powerful threat.', 'R', 91);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (19, 'Maleficent', 2018, 'A young woman learns the truth about her dark past.', 'R', 167);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (20, 'Jumanji: Welcome to the Jungle', 2010, 'A group of friends are sucked into a video game and must escape.', 'PG', 93);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (21, 'The Secret Life of Pets', 2016, 'A group of pets embark on an adventure while their owners are away.', 'NC-17', 87);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (22, 'Finding Nemo', 1997, 'A clownfish journeys to find his missing son.', 'PG-13', 133);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (23, 'Iron Man', 1996, 'A billionaire creates a powerful suit to fight crime.', 'NC-17', 139);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (24, 'Star Wars: The Force Awakens', 2007, 'A young woman discovers her connection to a mysterious force.', 'R', 105);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (25, 'The Hobbit', 1992, 'A group of dwarves and a hobbit go on a quest to reclaim their homeland.', 'PG-13', 97);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (26, 'Harry Potter and the Sorcerer''s Stone', 1993, 'A young boy discovers he is a wizard and attends a magical school.', 'G', 111);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (27, 'Inside Out', 2022, 'A young girl learns about emotions as she navigates life''s challenges.', 'PG', 88);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (28, 'The Incredibles', 1997, 'A superhero family struggles to balance their normal lives with saving the world.', 'PG-13', 176);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (29, 'Wonder Woman', 2019, 'An Amazonian princess leaves her island to save humanity.', 'G', 145);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (30, 'The Hunger Games', 2006, 'A young woman becomes a symbol of resistance in a dystopian society.', 'PG', 125);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (31, 'Frozen II', 2021, 'Anna and Elsa return to uncover the secrets of their kingdom.', 'G', 109);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (32, 'Zootopia', 2015, 'A rabbit and a fox team up to solve a mystery in a city of animals.', 'R', 123);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (33, 'Doctor Strange', 1990, 'A surgeon gains magical powers after a life-altering accident.', 'PG', 129);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (34, 'Guardians of the Galaxy', 2020, 'A team of misfits band together to save the galaxy.', 'PG-13', 168);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (35, 'Moana', 2001, 'A young girl embarks on a journey across the ocean to save her people.', 'PG-13', 92);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (36, 'Aladdin', 2014, 'A street rat uses a magical lamp to win the heart of a princess.', 'NC-17', 168);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (37, 'Beauty and the Beast', 2024, 'A young woman learns that true beauty comes from within.', 'G', 173);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (38, 'Thor: Ragnarok', 2013, 'Thor teams up with old friends to stop a powerful threat.', 'R', 178);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (39, 'Maleficent', 2006, 'A young woman learns the truth about her dark past.', 'R', 169);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (40, 'Jumanji: Welcome to the Jungle', 1998, 'A group of friends are sucked into a video game and must escape.', 'PG', 93);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (41, 'The Secret Life of Pets', 1990, 'A group of pets embark on an adventure while their owners are away.', 'NC-17', 122);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (42, 'Finding Nemo', 2001, 'A clownfish journeys to find his missing son.', 'PG-13', 157);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (43, 'Iron Man', 1991, 'A billionaire creates a powerful suit to fight crime.', 'NC-17', 160);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (44, 'Star Wars: The Force Awakens', 2014, 'A young woman discovers her connection to a mysterious force.', 'R', 84);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (45, 'The Hobbit', 2013, 'A group of dwarves and a hobbit go on a quest to reclaim their homeland.', 'PG-13', 174);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (46, 'Harry Potter and the Sorcerer''s Stone', 2007, 'A young boy discovers he is a wizard and attends a magical school.', 'G', 160);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (47, 'Inside Out', 2003, 'A young girl learns about emotions as she navigates life''s challenges.', 'PG', 108);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (48, 'The Incredibles', 2014, 'A superhero family struggles to balance their normal lives with saving the world.', 'PG-13', 115);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (49, 'Wonder Woman', 2007, 'An Amazonian princess leaves her island to save humanity.', 'G', 112);
+INSERT INTO Movies (MV_ID, MVName, MVReleaseYear, MVSummary, MVAgeRating, MVRuntime) VALUES (50, 'The Hunger Games', 1996, 'A young woman becomes a symbol of resistance in a dystopian society.', 'PG', 90);
+
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (114, 50, 19849850, 9.3, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (106, 47, 11308978, 7.4, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (111, 14, 12138508, 5.4, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (101, 23, 8482869, 7.2, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (106, 6, 2797888, 7.3, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (112, 35, 13475074, 8.4, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (109, 25, 7720340, 9.4, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (102, 24, 8462815, 9.8, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (103, 44, 5798363, 6.8, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (101, 1, 19039795, 7.7, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (100, 21, 10368279, 6.3, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (114, 26, 4493822, 6.0, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (111, 5, 2499703, 5.8, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (100, 8, 3148794, 5.3, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (103, 30, 1818040, 9.7, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (112, 42, 11757364, 6.1, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (111, 50, 11791740, 8.6, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (110, 37, 9612008, 7.9, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (110, 12, 13067868, 7.7, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (104, 21, 14296363, 6.6, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (102, 6, 12735416, 7.8, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (110, 22, 3912740, 8.9, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (111, 21, 8125023, 9.6, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (108, 21, 16278617, 8.6, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (112, 20, 8640934, 9.9, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (112, 33, 11091215, 8.4, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (104, 39, 14431954, 8.9, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (112, 37, 13612967, 6.9, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (102, 23, 8507818, 6.8, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (102, 30, 2380107, 6.3, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (110, 8, 3787165, 8.8, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (106, 32, 3763437, 9.7, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (109, 5, 556642, 7.5, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (114, 3, 8507826, 9.0, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (111, 20, 9939694, 5.4, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (112, 25, 13517502, 5.3, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (103, 43, 144875, 6.7, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (100, 11, 15703695, 9.8, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (111, 16, 8380055, 9.2, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (103, 9, 14555050, 9.5, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (101, 32, 13313615, 8.6, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (103, 17, 9395532, 6.1, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (114, 32, 4555983, 5.4, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (103, 45, 2684648, 6.6, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (104, 47, 3324944, 7.8, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (114, 24, 3786365, 5.9, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (106, 33, 9923622, 9.9, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (102, 21, 14360071, 8.8, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (108, 11, 1504946, 5.6, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (114, 29, 1178536, 5.1, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (109, 29, 14722501, 8.3, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (100, 33, 7666837, 5.1, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (100, 42, 2709604, 6.8, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (110, 17, 14073232, 8.1, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (105, 8, 3628443, 6.6, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (101, 16, 2680251, 5.6, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (104, 25, 16732483, 6.8, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (110, 43, 17568386, 8.3, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (105, 31, 6334240, 5.3, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (110, 2, 12372468, 9.5, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (105, 41, 10281076, 9.1, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (108, 20, 160987, 5.3, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (112, 15, 9784869, 9.9, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (103, 4, 19141820, 6.2, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (101, 12, 13083048, 6.2, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (101, 39, 17141688, 6.7, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (108, 7, 11539232, 8.8, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (104, 43, 8977543, 5.4, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (108, 35, 7612485, 8.1, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (106, 20, 13944413, 8.5, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (111, 17, 12845086, 8.5, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (101, 20, 13771000, 9.4, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (111, 9, 3483817, 9.2, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (110, 25, 16453354, 9.9, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (110, 50, 15531412, 8.5, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (107, 38, 10581808, 7.2, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (105, 24, 4570898, 6.8, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (111, 48, 7363944, 7.1, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (111, 23, 12871830, 5.7, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (108, 40, 12707195, 9.7, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (114, 43, 16348211, 9.5, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (104, 2, 18279110, 6.7, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (107, 39, 16405356, 5.4, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (100, 43, 13168793, 9.7, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (113, 35, 16594200, 5.4, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (102, 46, 9451674, 6.0, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (105, 13, 17451260, 7.5, True);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (105, 47, 4155209, 9.8, False);
+INSERT INTO StreamingServiceMovies (SS_ID, MV_ID, MVViewCount, MVReviewScore, MVAvailability) VALUES (110, 19, 452356, 8.4, False);
+
+INSERT INTO StreamingServiceTVShows (SS_ID, TVS_ID, TVSViewCount, TVSReviewScore, TVSAvailability)
+VALUES
+(100, 1, 5000, 8.7, TRUE),
+(100, 2, 4200, 9.1, FALSE),
+(100, 3, 2500, 7.6, TRUE),
+(101, 1, 3200, 6.8, TRUE),
+(101, 4, 1200, 8.3, FALSE),
+(101, 5, 8000, 9.5, TRUE),
+(102, 2, 6400, 9.0, TRUE),
+(102, 6, 5500, 8.1, FALSE),
+(103, 3, 2100, 7.2, TRUE),
+(103, 7, 4000, 8.9, TRUE),
+(104, 8, 3000, 8.0, FALSE),
+(104, 9, 4500, 8.8, TRUE),
+(105, 10, 5200, 7.5, TRUE),
+(106, 11, 3300, 8.2, TRUE),
+(107, 12, 2900, 7.7, FALSE),
+(108, 13, 4100, 9.2, TRUE),
+(109, 14, 2200, 6.9, TRUE),
+(110, 15, 3400, 8.4, TRUE),
+(111, 16, 4300, 7.8, FALSE),
+(112, 17, 2600, 6.5, TRUE),
+(113, 18, 5800, 9.6, TRUE),
+(114, 19, 3200, 8.1, FALSE),
+(100, 20, 4800, 9.3, TRUE),
+(101, 21, 3700, 8.9, TRUE),
+(102, 22, 2100, 7.0, FALSE),
+(103, 23, 6000, 9.7, TRUE),
+(104, 24, 4500, 8.6, TRUE),
+(105, 25, 3900, 7.8, FALSE),
+(106, 26, 5200, 9.2, TRUE),
+(107, 27, 2400, 6.7, TRUE),
+(108, 28, 4700, 8.5, TRUE),
+(109, 29, 3100, 7.4, TRUE),
+(110, 30, 2600, 7.1, FALSE),
+(111, 31, 4200, 9.0, TRUE),
+(112, 32, 3500, 8.3, TRUE),
+(113, 33, 5100, 9.4, TRUE),
+(114, 34, 2800, 6.9, FALSE),
+(101, 36, 3700, 7.7, TRUE),
+(102, 37, 5400, 9.1, TRUE),
+(103, 38, 2900, 6.8, FALSE),
+(104, 39, 4800, 9.3, TRUE),
+(105, 40, 3900, 8.7, TRUE),
+(106, 41, 3200, 7.3, TRUE),
+(107, 42, 5300, 9.0, TRUE),
+(108, 43, 4100, 8.1, FALSE),
+(109, 44, 2800, 6.4, TRUE),
+(110, 45, 4600, 8.8, TRUE),
+(111, 46, 3000, 7.5, FALSE),
+(112, 47, 5200, 9.5, TRUE),
+(113, 48, 3400, 7.9, TRUE),
+(114, 49, 4100, 8.4, TRUE),
+(114, 50, 3000, 6.7, TRUE),
+(101, 6, 2100, 7.3, TRUE),
+(101, 7, 3000, 6.9, TRUE),
+(102, 8, 4200, 8.5, TRUE),
+(102, 9, 5400, 9.2, FALSE),
+(103, 10, 3100, 7.8, TRUE),
+(103, 11, 2900, 7.2, FALSE),
+(104, 12, 3500, 8.3, TRUE),
+(104, 13, 4100, 8.7, TRUE),
+(105, 14, 2800, 7.4, TRUE),
+(105, 15, 3200, 6.8, FALSE),
+(106, 16, 3900, 8.1, TRUE),
+(106, 17, 5200, 9.3, TRUE),
+(107, 18, 2600, 6.7, TRUE),
+(107, 19, 4700, 9.5, TRUE),
+(108, 20, 3300, 8.4, FALSE),
+(108, 21, 3000, 7.9, TRUE),
+(109, 22, 4100, 9.0, TRUE),
+(109, 23, 3400, 8.2, TRUE),
+(110, 24, 5100, 9.6, FALSE),
+(110, 25, 2900, 7.1, TRUE),
+(111, 26, 3700, 8.3, TRUE),
+(111, 27, 4500, 9.4, TRUE),
+(112, 28, 2500, 6.6, TRUE),
+(112, 29, 3600, 8.8, TRUE),
+(113, 30, 4200, 9.1, TRUE),
+(113, 31, 3100, 7.5, TRUE),
+(114, 32, 2800, 7.2, TRUE),
+(114, 33, 4700, 9.2, TRUE),
+(100, 34, 4100, 8.4, TRUE),
+(100, 35, 3500, 7.8, TRUE);
+
+INSERT INTO TVShowProducedBy (TVS_ID, ST_ID)
+VALUES
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6),
+(7, 7),
+(8, 8),
+(9, 9),
+(10, 10),
+(11, 11),
+(12, 12),
+(13, 13),
+(14, 14),
+(15, 15),
+(16, 1),
+(17, 2),
+(18, 3),
+(19, 4),
+(20, 5),
+(21, 6),
+(22, 7),
+(23, 8),
+(24, 9),
+(25, 10),
+(26, 11),
+(27, 12),
+(28, 13),
+(29, 14),
+(30, 15),
+(31, 1),
+(32, 2),
+(33, 3),
+(34, 4),
+(35, 5),
+(36, 6),
+(37, 7),
+(38, 8),
+(39, 9),
+(40, 10),
+(41, 11),
+(42, 12),
+(43, 13),
+(44, 14),
+(45, 15),
+(46, 1),
+(47, 2),
+(48, 3),
+(49, 4),
+(50, 15);
+
+INSERT INTO TVShowGenres (TVS_ID, Genre)
+VALUES
+(1, 'Drama'),
+(1, 'Mystery'),
+(2, 'Comedy'),
+(3, 'Action'),
+(3, 'Thriller'),
+(4, 'Horror'),
+(5, 'Sci-Fi'),
+(6, 'Romance'),
+(7, 'Documentary'),
+(8, 'Fantasy'),
+(9, 'Adventure'),
+(10, 'Biography'),
+(11, 'History'),
+(12, 'Music'),
+(13, 'Reality-TV'),
+(14, 'Talk-Show'),
+(15, 'Game-Show'),
+(16, 'News'),
+(17, 'Western'),
+(18, 'War'),
+(19, 'Sport'),
+(20, 'Family'),
+(21, 'Animation'),
+(22, 'Musical'),
+(23, 'Crime'),
+(25, 'Adventure'),
+(26, 'Biography'),
+(27, 'History'),
+(28, 'Music'),
+(29, 'Reality-TV'),
+(30, 'Talk-Show'),
+(31, 'Game-Show'),
+(32, 'News'),
+(33, 'Western'),
+(34, 'War'),
+(35, 'Sport'),
+(37, 'Animation'),
+(38, 'Musical'),
+(39, 'Crime'),
+(40, 'Fantasy'),
+(41, 'Adventure'),
+(42, 'Biography'),
+(43, 'History'),
+(44, 'Music'),
+(45, 'Reality-TV'),
+(46, 'Talk-Show'),
+(47, 'Game-Show'),
+(48, 'News'),
+(49, 'Western'),
+(50, 'Action'),
+(1, 'Action'),
+(2, 'Sci-Fi'),
+(3, 'Drama'),
+(4, 'Adventure'),
+(5, 'Fantasy'),
+(6, 'Horror'),
+(7, 'Crime'),
+(8, 'Mystery'),
+(9, 'Musical'),
+(10, 'Thriller'),
+(11, 'Western'),
+(12, 'Sport'),
+(13, 'Family'),
+(14, 'Animation'),
+(15, 'Documentary'),
+(16, 'Biography'),
+(17, 'War'),
+(18, 'Talk-Show'),
+(19, 'Reality-TV'),
+(20, 'Game-Show'),
+(21, 'News'),
+(22, 'Comedy'),
+(23, 'Sci-Fi'),
+(24, 'Fantasy'),
+(25, 'Action'),
+(26, 'Crime'),
+(27, 'Adventure'),
+(28, 'Horror'),
+(29, 'Music'),
+(30, 'Drama'),
+(31, 'Musical'),
+(32, 'Mystery'),
+(33, 'Thriller'),
+(34, 'Western'),
+(35, 'Biography'),
+(36, 'Family'),
+(37, 'Sport'),
+(38, 'War'),
+(39, 'Animation'),
+(40, 'Documentary'),
+(41, 'Talk-Show'),
+(42, 'Reality-TV'),
+(43, 'News'),
+(44, 'Game-Show'),
+(45, 'Comedy'),
+(46, 'Sci-Fi'),
+(47, 'Fantasy'),
+(48, 'Action'),
+(49, 'Drama'),
+(50, 'Mystery');
+
+INSERT INTO TVShowAudioLanguageOptions (TVS_ID, SS_ID, Language)
+VALUES(1, 100, 'English'),
+(2, 101, 'Spanish'),
+(3, 102, 'French'),
+(4, 103, 'German'),
+(5, 104, 'Japanese'),
+(6, 105, 'Mandarin'),
+(7, 106, 'Korean'),
+(8, 107, 'Italian'),
+(9, 108, 'Portuguese'),
+(10, 109, 'Arabic'),
+(11, 110, 'Dutch'),
+(12, 111, 'Russian'),
+(13, 112, 'Swedish'),
+(14, 113, 'Turkish'),
+(15, 114, 'Hindi'),
+(16, 100, 'Bengali'),
+(17, 101, 'Punjabi'),
+(18, 102, 'Tamil'),
+(19, 103, 'Telugu'),
+(20, 104, 'Urdu'),
+(21, 105, 'Marathi'),
+(22, 106, 'Malayalam'),
+(23, 107, 'Kannada'),
+(24, 108, 'Gujarati'),
+(25, 109, 'Odia'),
+(26, 110, 'Sinhala'),
+(27, 111, 'Thai'),
+(28, 112, 'Vietnamese'),
+(29, 113, 'Lao'),
+(30, 114, 'Burmese'),
+(31, 100, 'Khmer'),
+(32, 101, 'Tagalog'),
+(33, 102, 'Ilocano'),
+(34, 103, 'Hmong'),
+(35, 104, 'Mongolian'),
+(36, 105, 'Pashto'),
+(37, 106, 'Farsi'),
+(38, 107, 'Uzbek'),
+(39, 108, 'Kazakh'),
+(40, 109, 'Kyrgyz'),
+(41, 110, 'Tajik'),
+(42, 111, 'Turkmen'),
+(43, 112, 'Georgian'),
+(44, 113, 'Armenian'),
+(45, 114, 'Azerbaijani'),
+(46, 100, 'Hebrew'),
+(47, 101, 'Yiddish'),
+(48, 102, 'Swahili'),
+(49, 103, 'Zulu'),
+(50, 114, 'Xhosa');
+
+	
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (33, 'Family');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (25, 'Action');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (3, 'Fantasy');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (44, 'Animation');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (13, 'Mystery');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (28, 'Fantasy');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (32, 'Romance');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (22, 'Crime');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (41, 'Mystery');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (18, 'Romance');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (26, 'Sci-Fi');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (40, 'Sci-Fi');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (16, 'Action');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (50, 'Adventure');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (38, 'Musical');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (32, 'Crime');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (44, 'Drama');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (35, 'Adventure');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (49, 'Comedy');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (6, 'Mystery');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (16, 'Drama');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (38, 'Crime');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (17, 'Comedy');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (37, 'Action');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (32, 'Thriller');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (31, 'Romance');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (40, 'Comedy');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (13, 'Comedy');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (1, 'Action');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (14, 'Adventure');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (44, 'Mystery');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (11, 'Family');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (33, 'Musical');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (20, 'Family');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (25, 'Drama');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (20, 'Sci-Fi');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (35, 'Crime');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (33, 'Horror');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (27, 'Horror');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (26, 'Drama');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (27, 'Drama');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (42, 'Thriller');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (5, 'Fantasy');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (19, 'Action');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (37, 'Adventure');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (43, 'Fantasy');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (45, 'Adventure');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (29, 'Adventure');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (20, 'Action');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (37, 'Mystery');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (9, 'Romance');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (46, 'Family');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (30, 'Family');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (38, 'Romance');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (14, 'Action');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (49, 'Adventure');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (49, 'Horror');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (22, 'Thriller');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (50, 'Drama');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (19, 'Horror');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (8, 'Musical');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (32, 'Animation');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (31, 'Action');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (47, 'Musical');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (16, 'Horror');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (6, 'Comedy');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (9, 'Sci-Fi');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (29, 'Drama');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (15, 'Family');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (2, 'Crime');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (42, 'Sci-Fi');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (14, 'Musical');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (44, 'Sci-Fi');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (45, 'Sci-Fi');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (17, 'Thriller');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (15, 'Mystery');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (27, 'Family');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (4, 'Romance');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (11, 'Crime');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (24, 'Thriller');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (34, 'Romance');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (18, 'Drama');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (18, 'Family');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (48, 'Thriller');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (40, 'Thriller');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (30, 'Adventure');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (18, 'Fantasy');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (17, 'Drama');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (5, 'Crime');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (4, 'Animation');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (17, 'Mystery');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (8, 'Thriller');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (43, 'Sci-Fi');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (46, 'Adventure');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (40, 'Animation');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (3, 'Crime');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (46, 'Thriller');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (32, 'Mystery');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (9, 'Family');
+INSERT INTO MovieGenres (MV_ID, MVGenre) VALUES (23, 'Animation');
+
+	
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (42, 104, 'Japanese');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (48, 100, 'Spanish');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (46, 113, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (33, 104, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (12, 109, 'Hindi');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (12, 110, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (31, 110, 'Spanish');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (17, 105, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (41, 111, 'Spanish');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (10, 106, 'French');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (22, 110, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (10, 109, 'Mandarin');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (39, 110, 'Hindi');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (47, 114, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (43, 108, 'Korean');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (31, 105, 'Korean');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (20, 102, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (29, 105, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (2, 110, 'Italian');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (12, 100, 'Japanese');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (26, 112, 'Italian');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (16, 108, 'Hindi');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (7, 106, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (47, 101, 'Spanish');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (30, 100, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (26, 100, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (20, 110, 'Japanese');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (10, 112, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (7, 102, 'Japanese');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (45, 114, 'French');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (36, 112, 'Korean');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (2, 100, 'Spanish');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (19, 100, 'Korean');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (32, 110, 'Korean');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (44, 112, 'Spanish');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (19, 103, 'Spanish');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (27, 102, 'Japanese');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (38, 103, 'Spanish');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (17, 102, 'French');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (37, 101, 'Korean');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (28, 105, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (13, 113, 'Japanese');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (45, 110, 'Mandarin');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (17, 107, 'Italian');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (29, 103, 'Korean');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (45, 108, 'Korean');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (10, 109, 'Hindi');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (11, 111, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (29, 104, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (4, 108, 'Mandarin');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (46, 113, 'French');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (27, 104, 'Mandarin');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (18, 113, 'Korean');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (45, 109, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (33, 101, 'Italian');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (1, 101, 'Hindi');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (43, 114, 'Mandarin');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (31, 106, 'Hindi');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (48, 111, 'Japanese');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (13, 109, 'Mandarin');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (45, 100, 'Hindi');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (23, 111, 'Korean');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (28, 113, 'Hindi');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (1, 102, 'Japanese');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (21, 108, 'Italian');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (1, 104, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (22, 110, 'Italian');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (13, 110, 'Spanish');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (38, 102, 'French');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (2, 113, 'Japanese');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (14, 107, 'Japanese');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (8, 110, 'Mandarin');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (7, 107, 'French');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (6, 112, 'Mandarin');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (1, 113, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (37, 106, 'Spanish');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (13, 101, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (20, 110, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (37, 101, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (27, 108, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (14, 113, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (19, 113, 'Hindi');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (42, 103, 'Mandarin');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (13, 111, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (36, 112, 'Hindi');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (41, 100, 'Mandarin');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (27, 104, 'Korean');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (5, 108, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (9, 110, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (25, 108, 'Spanish');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (32, 112, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (12, 101, 'Italian');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (5, 114, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (29, 108, 'Hindi');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (22, 110, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (8, 103, 'German');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (23, 114, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (13, 103, 'French');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (31, 107, 'English');
+INSERT INTO MovieAudioLanguageOptions (MV_ID, SS_ID, MVLanguage) VALUES (14, 112, 'Spanish');
+
+
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '1', '1', 'Season 1', '1965');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '2', '1', 'Season 1', '2003');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '3', '1', 'Season 1', '1970');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '4', '1', 'Season 1', '2011');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '5', '1', 'Season 1', '1987');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '6', '1', 'Season 1', '2020');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '7', '1', 'Season 1', '1999');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '8', '1', 'Season 1', '1966');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '9', '1', 'Season 1', '1983');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '10', '1', 'Season 1', '2014');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '11', '1', 'Season 1', '2014');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '12', '1', 'Season 1', '1961');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '13', '1', 'Season 1', '1995');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '14', '1', 'Season 1', '1959');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '15', '1', 'Season 1', '2014');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '16', '1', 'Season 1', '1950');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '17', '1', 'Season 1', '1989');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '18', '1', 'Season 1', '1982');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '19', '1', 'Season 1', '2002');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '20', '1', 'Season 1', '1962');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '21', '1', 'Season 1', '1987');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '22', '1', 'Season 1', '1957');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '23', '1', 'Season 1', '1975');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '24', '1', 'Season 1', '1973');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '25', '2', 'Season 2', '2019');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '26', '2', 'Season 2', '1990');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '27', '2', 'Season 2', '1955');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '28', '2', 'Season 2', '1968');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '29', '2', 'Season 2', '1996');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '30', '2', 'Season 2', '1964');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '31', '2', 'Season 2', '1966');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '32', '2', 'Season 2', '2023');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '33', '2', 'Season 2', '1996');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '34', '2', 'Season 2', '1994');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '35', '2', 'Season 2', '1976');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '36', '2', 'Season 2', '1978');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '37', '2', 'Season 2', '1992');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '38', '2', 'Season 2', '1985');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '39', '2', 'Season 2', '2021');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '40', '3', 'Season 3', '2022');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '41', '3', 'Season 3', '1999');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '42', '3', 'Season 3', '1964');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '43', '3', 'Season 3', '1969');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '44', '3', 'Season 3', '1990');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '45', '3', 'Season 3', '1964');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '46', '3', 'Season 3', '2002');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '47', '3', 'Season 3', '1950');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '48', '3', 'Season 3', '2024');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '49', '3', 'Season 3', '2005');
+insert into Seasons (TVS_ID,SE_ID,Name,ReleaseYear) values ( '50', '3', 'Season 3', '1992');
+
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '1', '1', '1', 'justo sollicitudin', '1973', 'quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus', '57');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '2', '1', '1', 'turpis', '2021', 'rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis', '46');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '3', '1', '2', 'nulla quisque', '1975', 'non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis', '38');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '4', '1', '1', 'justo', '1985', 'mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum', '28');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '5', '1', '2', 'in est risus', '1990', 'lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam', '38');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '6', '1', '3', 'mauris', '1972', 'proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit', '21');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '7', '1', '1', 'ultrices vel augue', '1971', 'nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi', '66');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '8', '1', '2', 'vestibulum sit amet cursus', '1950', 'vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi', '58');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '9', '1', '3', 'velit id pretium', '2005', 'magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus', '68');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '10', '1', '4', 'tristique fusce', '2022', 'leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus', '31');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '11', '1', '1', 'magna vulputate', '1962', 'vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus', '29');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '12', '1', '2', 'a', '2022', 'iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo', '53');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '13', '1', '3', 'ut rhoncus aliquet pulvinar', '1975', 'tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut', '60');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '14', '1', '4', 'auctor gravida sem praesent', '1992', 'amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in', '12');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '15', '1', '5', 'turpis eget', '1977', 'leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor', '39');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '16', '1', '1', 'id ligula suspendisse', '1989', 'nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in', '7');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '17', '1', '2', 'tristique fusce', '1974', 'hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur', '42');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '18', '1', '3', 'vel accumsan tellus', '1984', 'donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper', '56');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '19', '1', '4', 'et', '1998', 'volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum', '37');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '20', '1', '5', 'sapien quis libero nullam', '2015', 'sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in', '38');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '21', '1', '6', 'id pretium iaculis', '1951', 'ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel', '47');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '22', '1', '1', 'in', '1993', 'ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est', '59');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '23', '1', '2', 'odio odio elementum eu', '1987', 'integer ac neque duis bibendum morbi non quam nec dui luctus rutrum', '61');
+insert into EPISODES (TVS_ID,SE_ID,Ep_ID,Name,ReleaseYear,Summary,Runtime) values ( '24', '1', '3', 'facilisi cras non velit', '1975', 'consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla', '19');
+
+
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '1', '1');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '2', '2');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '3', '3');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '4', '4');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '5', '5');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '6', '6');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '7', '7');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '8', '8');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '9', '9');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '10', '10');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '11', '11');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '12', '12');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '13', '13');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '14', '14');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '15', '15');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '16', '1');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '17', '2');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '18', '3');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '19', '4');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '20', '5');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '21', '6');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '22', '7');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '23', '8');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '24', '9');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '25', '10');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '26', '11');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '27', '12');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '28', '13');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '29', '14');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '30', '15');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '31', '1');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '32', '2');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '33', '3');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '34', '4');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '35', '5');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '36', '6');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '37', '7');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '38', '8');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '39', '9');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '40', '10');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '41', '11');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '42', '12');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '43', '13');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '44', '14');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '45', '15');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '46', '1');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '47', '2');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '48', '3');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '49', '4');
+insert into MovieProducedBy (MV_ID,ST_ID) values ( '50', '5');
